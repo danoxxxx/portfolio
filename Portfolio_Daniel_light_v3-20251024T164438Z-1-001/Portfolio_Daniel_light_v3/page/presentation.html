@@ -1,0 +1,124 @@
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio – Daniel LUKUDIKA MUYA</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style/style.css" />
+</head>
+<body>
+  <!-- En-tête -->
+  <header class="entete">
+    <div class="conteneur entete-ligne">
+      <a class="logo" href="portfolio.html">Daniel L.</a>
+      <button class="menu-bouton" id="menuBouton" aria-label="Ouvrir le menu">☰</button>
+      <nav id="menu">
+        <a href="portfolio.html" class="lien-nav actif">Accueil</a>
+        <a href="presentation.html" class="lien-nav">Présentation</a>
+        <a href="parcours.html">Parcours</a>
+        <a href="competence.html" class="lien-nav">Compétences</a>
+        <a href="realisations.html" class="lien-nav">Réalisations</a>
+        <a href="contact.html" class="lien-nav">Contact</a>
+        <a href="veille.html" class="lien-nav">veille</a>
+        <a href="certif.html" class="lien-nav">certifications</a>
+      </nav>
+    </div>
+  </header>
+
+   <section class="section hero">
+    <div class="conteneur">
+        <div class="hero-flex">
+            <div class="hero-texte">
+                <h1>Daniel Lukudika Muya</h1>
+                <p class="tagline">Étudiant en BTS SIO option SLAM · Développeur d’applications</p>
+                <p class="description">
+                    Passionné par le développement d'applications, je suis actuellement en première année de BTS SIO au lycée Parc des Loges. 
+                    Je transforme ma curiosité pour l'informatique en compétences concrètes, du back-end à la gestion de bases de données.
+                </p>
+                <div class="actions">
+                    <a href="presentation.html" class="bouton principal">En savoir plus sur moi</a>
+                    <a href="../pdf/CV_Daniel_Lukudika.pdf" class="bouton secondaire" download>Télécharger mon CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="conteneur">
+        <div class="entete-section">
+            <h2>Mes projets récents</h2>
+            <p class="texte-secondaire">Un aperçu de mes dernières réalisations académiques et personnelles.</p>
+        </div>
+        <div class="grille-projets">
+            <article class="carte projet">
+                <div class="carte-contenu">
+                    <span class="badge">Java / MVC</span>
+                    <h3>Application Ménagerie</h3>
+                    <p>Gestion complète d'un parc animalier avec interface graphique, structurée selon le modèle MVC.</p>
+                    <a href="realisations.html" class="lien-fleche">Voir le projet →</a>
+                </div>
+            </article>
+
+            <article class="carte projet">
+                <div class="carte-contenu">
+                    <span class="badge">Veille</span>
+                    <h3>Réalité Virtuelle & Santé</h3>
+                    <p>Analyse de l'impact des simulateurs VR dans la chirurgie moderne et l'entraînement sportif.</p>
+                    <a href="veille.html" class="lien-fleche">Découvrir la veille →</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section ruban">
+    <div class="conteneur grille-expertise">
+        <div class="expertise-item">
+            <div class="icone">💻</div>
+            <h3>Compétences</h3>
+            <p>Maîtrise du HTML/CSS, JavaScript, Java et SQL.</p>
+            <a href="competence.html">Voir mes compétences</a>
+        </div>
+        <div class="expertise-item">
+            <div class="icone">🎓</div>
+            <h3>Certifications</h3>
+            <p>SecNumAcadémie, Introduction à la cybersécurité (Cisco).</p>
+            <a href="certif.html">Voir mes certificats</a>
+        </div>
+    </div>
+</section>
+    <script src="../style/script.js"></script>
+    <footer class="pied-page">
+    <div class="conteneur">
+        <div class="footer-contenu">
+            <div class="footer-info">
+                <h3>Daniel Lukudika Muya</h3>
+                <p>Étudiant en BTS SIO option SLAM</p>
+            </div>
+            <div class="footer-liens">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="portfolio.html">Accueil</a></li>
+                    <li><a href="realisations.html">Réalisations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-reseaux">
+                <h4>Réseaux</h4>
+                <div class="icones">
+                    <a href="https://github.com/ton-profil" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/ton-profil" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 Daniel Lukudika Muya — Portfolio personnel</p>
+        </div>
+    </div>
+</footer>
+</html>

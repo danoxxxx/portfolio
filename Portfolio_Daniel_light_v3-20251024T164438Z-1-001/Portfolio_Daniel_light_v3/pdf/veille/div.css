@@ -1,0 +1,147 @@
+.tableau2 { 
+    border: 1px ridge rgba(255, 0, 0, 0);
+    border-width: 3px;
+    padding: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
+    display:flex;/* sa sert a modele la plus facilement*/
+    flex-direction:row;/* sa sert a aligne les deux collonnes*/
+    }
+    
+    .tablea2  { 
+    border: 0px ;
+    padding-top: 10px;
+    margin-left: 40px;
+    height: 200px;
+    text-align: center;
+    font: x-small-caps;
+    width:350px;
+    background-color: rgba(240, 248, 255, 0);
+    color: black;
+    }
+    
+    .tabllea2 { 
+    border: 0px;
+    padding-top: 10px;
+    margin-right: 40px;
+    margin-left: 190px;
+    height: 200px;
+    text-align: center;
+    font: x-small-caps;
+    width: 1000px;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(0, 0, 0);
+    }
+    
+    .taille2 { text-decoration :underline;
+        font-weight : bold;
+    }   
+
+
+.circle{
+    border: 2px solid #eaeaea;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: rgba(25, 222, 65, 0.721);
+    width: 350px;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.tabllea3 { 
+    border: 0px;
+    padding-top: 10px;
+    margin-right: 20px;
+    margin-left: 140px;
+    height: 200px;
+    text-align: center;
+    font: small-caps;
+    width: 1000px;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(0, 0, 0);
+    }
+
+
+    .tabllea4 { 
+        border: 0px;
+        margin-right: 0px;
+        margin-left:550px;
+        text-align: center;
+        font: small-caps;
+        width: 140px;
+        background-color: rgba(240, 248, 255, 0);
+        color: rgb(0, 0, 0);
+        }
+
+
+        .circle1{
+            border: 2px solid #fcfcfc;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            background-color: rgba(240, 248, 255, 0.614);
+            width: 350px;
+            height: 200px;
+            padding-top: 10px;
+        }
+        
+        .tabllea5 { 
+            border: 0px;
+            margin-right: 100px;
+            margin-left: 0px;
+            text-align: center;
+            font: small-caps;
+            width: 135px;
+            background-color: rgba(240, 248, 255, 0);
+            color: rgb(0, 0, 0);
+        }
+
+        
+        .tabllea6 { 
+            border: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+            text-align: center;
+            font: small-caps;
+            width: 20px;
+            background-color: rgba(240, 248, 255, 0);
+            color: rgb(0, 0, 0);
+        }
+        
+            .tabllea7 { 
+                border: 0px;
+                margin-right: 100px;
+                margin-left: 0px;
+                text-align: center;
+                font: small-caps;
+                width: 135px;
+                background-color: rgba(240, 248, 255, 0);
+                color: rgb(0, 0, 0);
+            }
+
+        
+            .tabllea8 { 
+                border: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+                text-align: center;
+                font: small-caps;
+                width: 20px;
+                background-color: rgba(240, 248, 255, 0);
+                color: rgb(0, 0, 0);
+            }
+
+
+            .tabllea9 { 
+                border: 0px;
+                margin-right: 0px;
+                margin-left: 800px;
+                text-align: center;
+                font: small-caps;
+                width: 20px;
+                background-color: rgba(240, 248, 255, 0);
+                color: rgb(0, 0, 0);
+            }

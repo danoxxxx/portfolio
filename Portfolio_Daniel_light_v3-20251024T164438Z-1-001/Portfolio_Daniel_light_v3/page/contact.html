@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio – Daniel LUKUDIKA MUYA</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style/style.css" />
+</head>
+<body>
+  <!-- En-tête -->
+  <header class="entete">
+    <div class="conteneur entete-ligne">
+      <a class="logo" href="portfolio.html">Daniel L.</a>
+      <button class="menu-bouton" id="menuBouton" aria-label="Ouvrir le menu">☰</button>
+      <nav id="menu">
+        <a href="portfolio.html" class="lien-nav actif">Accueil</a>
+        <a href="presentation.html" class="lien-nav">Présentation</a>
+        <a href="parcours.html">Parcours</a>
+        <a href="competence.html" class="lien-nav">Compétences</a>
+        <a href="realisations.html" class="lien-nav">Réalisations</a>
+        <a href="contact.html" class="lien-nav">Contact</a>
+        <a href="veille.html" class="lien-nav">veille</a>
+        <a href="certif.html" class="lien-nav">certifications</a>
+      </nav>
+    </div>
+  </header>
+   <section id="contact" class="section">
+      <div class="conteneur">
+        <div class="entete-section">
+          <h2>Contact</h2>
+          <p class="texte-secondaire" id="aide-contact">Envoyez‑moi un message (pas d’infos sensibles) ou écrivez‑moi directement&nbsp;: <strong>danielrubenmuya@gmail.com</strong>.</p>
+        </div>
+
+        <div class="ligne-2">
+          <div class="bloc doux">
+            <form action="mailto:danielrubenmuya@gmail.com" method="post" enctype="text/plain" aria-describedby="aide-contact">
+              <label for="nom">Nom <span class="texte-secondaire">(obligatoire)</span></label>
+              <input id="nom" name="nom" type="text" placeholder="Votre nom" required>
+
+              <label for="email">E‑mail <span class="texte-secondaire">(obligatoire)</span></label>
+              <input id="email" name="email" type="email" placeholder="vous@exemple.com" required>
+
+              <label for="sujet">Sujet</label>
+              <input id="sujet" name="sujet" type="text" placeholder="Sujet de votre message">
+
+              <label for="message">Message <span class="texte-secondaire">(obligatoire)</span></label>
+              <textarea id="message" name="message" placeholder="Votre message..." minlength="10" required></textarea>
+
+              <button class="bouton principal" type="submit">Envoyer</button>
+              <p class="texte-secondaire aide-mail">💡 Si le bouton n’ouvre pas votre messagerie, écrivez à <strong>danielrubenmuya@gmail.com</strong>.</p>
+            </form>
+          </div>
+
+          <div class="bloc doux infos-contact">
+            <h3>Infos rapides</h3>
+            <ul class="liste-puces">
+              <li><strong>Nom :</strong> Daniel LUKUDIKA MUYA</li>
+              <li><strong>Né le :</strong> 16/10/2006</li>
+              <li><strong>Option :</strong> SLAM</li>
+              <li><strong>E‑mail :</strong> danielrubenmuya@gmail.com</li>
+            </ul>
+            <p class="micro">Je réponds dès que possible, merci !</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur">© <span id="annee"></span> Daniel LUKUDIKA MUYA — Portfolio</div>
+  </footer>
+
+  <script src="../style/script.js"></script>
+  <footer class="pied-page">
+    <div class="conteneur">
+        <div class="footer-contenu">
+            <div class="footer-info">
+                <h3>Daniel Lukudika Muya</h3>
+                <p>Étudiant en BTS SIO option SLAM</p>
+            </div>
+            <div class="footer-liens">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="portfolio.html">Accueil</a></li>
+                    <li><a href="realisations.html">Réalisations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-reseaux">
+                <h4>Réseaux</h4>
+                <div class="icones">
+                    <a href="https://github.com/ton-profil" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/ton-profil" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 Daniel Lukudika Muya — Portfolio personnel</p>
+        </div>
+    </div>
+</footer>
+</html>
